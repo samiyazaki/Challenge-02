@@ -12,7 +12,7 @@ h1 {
   padding: 50px 0;
   font-size: 45px;
   text-align: center;
-  color: rgb(54, 56, 55);
+  color: rgb(173, 28, 209);
 }
 :active, :hover, :focus {
   outline: 0!important;
@@ -30,6 +30,8 @@ h1 {
   justify-content: center;
   max-width: 1000px;
   margin: 10px auto 35px;
+  border-radius: 8px;
+  transition: all .5s ease-in-out;
 }
 .btn {
   position: relative;
@@ -67,45 +69,11 @@ h1 {
 .btn-1 span:hover {
   color: rgb(28, 31, 30);
   transition: 0.2s 0.1s;
+  box-shadow: inset opx opx 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232,102,236,1);
+
 }
 
-/* 1.hover-filled-slide-down */
-.btn.hover-filled-slide-down::before {
-  bottom: 0; left: 0; right: 0; 
-  height: 100%; width: 100%;
-}
-.btn.hover-filled-slide-down:hover::before {
-  height: 0%;
-}
 
-/* 2.hover-filled-slide-up */
-.btn.hover-filled-slide-up::before {
-  top: 0; left: 0; right: 0;
-  height: 100%; width: 100%;
-}
-.btn.hover-filled-slide-up:hover::before {
-  height: 0%;
-}
-
-/* 3.hover-filled-slide-left */
-.btn.hover-filled-slide-left::before {
-  top: 0; bottom: 0; left: 0;
-  height: 100%; width: 100%;
-}
-.btn.hover-filled-slide-left:hover::before {
-  width: 0%;
-}
-
-/* 4. hover-filled-slide-right */
-.btn.hover-filled-slide-right::before {
-  top:0; bottom: 0; right: 0;
-  height: 100%; width: 100%;
-}
-.btn.hover-filled-slide-right:hover::before {
-  width: 0%;
-}
-
-/* 5. hover-filled-opacity */
 .btn.hover-filled-opacity::before {
   top:0; bottom: 0; right: 0;
   height: 100%; width: 100%;
