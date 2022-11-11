@@ -1,106 +1,93 @@
-# 02 Advanced CSS: Portfolio
+# Module 01 Mini-Project: Landing Page
 
-## Your Task
+In this mini-project, you will build a landing page using HTML and CSS. While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Instructions
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+Work in your group to implement the following user stories:
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+* As a client, I want to view a single webpage that collects a visitor's contact information.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+* As a client, I want the landing page to have a header and footer.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+* As a client, I want the landing page to have an image with a caption.
 
+* As a client, I want the landing page to have a contact form.
 
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
+* As a client, I want the landing page to have a polished and accessible UI.
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+* It's done when the page uses semantic HTML elements.
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+* It's done when the page uses universal, element, and class selectors in CSS.
 
+* It's done when the page features at least three colors in the design.
 
-## Mock-Up
+* It's done when the page uses a single font and font family for all text.
 
-The following animation shows the web application's appearance and functionality:
+* It's done when the page uses at least two heading elements (`<h1>` through `<h6>`).
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+* It's done when the header is fixed to the top of the page on scroll.
 
+* It's done when the header contains a navigation bar with three links that display inline, including a contact link.
 
-## Grading Requirements
+* It's done when, if the contact link is clicked, the page jumps directly to the contact form.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+* It's done when the contact form includes `input` elements for name and email.
 
-This Challenge is graded based on the following criteria: 
+* It's done when the contact form includes a Send button.
 
-### Technical Acceptance Criteria: 40%
+* It's done when the image includes a descriptive `alt` attribute.
 
-* Satisfies all of the above acceptance criteria.
+* It's done when the page is deployed to GitHub Pages.
 
-### Deployment: 32%
+## 💡 Notes
 
-* Application deployed at live URL.
+Follow these instructions to deploy your project to GitHub Pages:
 
-* Application loads with no errors.
+1. Create a new repository on your GitHub account and clone it to your computer.
 
-* Application GitHub URL submitted.
+2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
 
-* GitHub repository contains application code.
+3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
 
-### Application Quality: 15%
+4. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Source.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
 
-### Repository Quality: 13%
+You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
 
-* Repository has a unique name.
+> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
-* Repository follows best practices for file structure and naming conventions.
+## 💡 Hints
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+Refer to the documentation:
 
-* Repository contains multiple descriptive commit messages.
+* [MDN Web Docs on HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+* [MDN Web Docs on color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 
-## Review
+* [MDN Web Docs on font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
-You are required to submit BOTH of the following for review:
+* [MDN Web Docs on HTML section heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 
-* The URL of the deployed application.
+* [MDN Web Docs on how to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+* [MDN Web Docs on the button element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
-- - -
+* [MDN Web Docs on the figure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+
+* [Full-Stack Blog HTML Cheatsheet](https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet)
+
+## 🏆 Bonus
+
+If you have completed this activity, work through the following challenge with your group to further your knowledge:
+
+* How can CSS be used to apply a different style to an `<a>` element when a cursor points at it?
+
+Use [Google](https://www.google.com) or another search engine to research this.
+
+---
+
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

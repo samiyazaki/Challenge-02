@@ -1,0 +1,216 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(163, 24, 163);
+  background-color: rgb(63, 63, 63);
+}
+h1 {
+  padding: 50px 0;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(54, 56, 55);
+}
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+  .btn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+  }
+
+/*--- btn-1 ---*/
+.btn-1::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.3s ease-out;
+}
+.btn-1 span {
+  color: rgb(255,255,255);
+  border: 1px solid rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+.btn-1 span:hover {
+  color: rgb(28, 31, 30);
+  transition: 0.2s 0.1s;
+}
+
+/* 1.hover-filled-slide-down */
+.btn.hover-filled-slide-down::before {
+  bottom: 0; left: 0; right: 0; 
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-down:hover::before {
+  height: 0%;
+}
+
+/* 2.hover-filled-slide-up */
+.btn.hover-filled-slide-up::before {
+  top: 0; left: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-up:hover::before {
+  height: 0%;
+}
+
+/* 3.hover-filled-slide-left */
+.btn.hover-filled-slide-left::before {
+  top: 0; bottom: 0; left: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-left:hover::before {
+  width: 0%;
+}
+
+/* 4. hover-filled-slide-right */
+.btn.hover-filled-slide-right::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+}
+.btn.hover-filled-slide-right:hover::before {
+  width: 0%;
+}
+
+/* 5. hover-filled-opacity */
+.btn.hover-filled-opacity::before {
+  top:0; bottom: 0; right: 0;
+  height: 100%; width: 100%;
+  opacity: 1;
+}
+.btn.hover-filled-opacity:hover::before {
+  opacity: 0;
+}
+
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #6f318b;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #DDAF94;
+  background-color:  #E8CEBF;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
