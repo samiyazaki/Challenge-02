@@ -4,9 +4,9 @@
   margin: 0; padding: 0;
 }
 :root {
-  --purple: rgb(173, 28, 209);
-  --smoke: rgb(63, 63, 63);
-  --black:  #000000;
+  --purple: rgb(28, 209, 170);
+  --smoke: rgb(255, 253, 253);
+  --black:  #00eeff;
 }
 
 body {
@@ -15,7 +15,10 @@ body {
   background-color: var(--smoke);
   overflow: auto;
 }
-
+img {
+  width: 100%;
+  height: auto;
+}
 h1 {
   padding: 60px 0;
   font-size: 45px;
