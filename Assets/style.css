@@ -7,6 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: rgb(163, 24, 163);
   background-color: rgb(63, 63, 63);
+  overflow: auto;
 }
 h1 {
   padding: 50px 0;
@@ -46,16 +47,27 @@ footer {
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  border-bottom: 10px solid #000000;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-footer {
-  position: absolute;
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
+#content-wrap {
+  padding-bottom: 2.5rem;    
 }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 2.5rem;     
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;         
+}
+
 
 figure {
   margin-bottom: 40px;
