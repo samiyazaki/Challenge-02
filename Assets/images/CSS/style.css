@@ -5,7 +5,7 @@
   padding: 0;
 }
 :root {
-  --purple: rgb(136, 186,193);
+  --purple: rgb(136, 186, 193);
   --smoke: rgb(192, 194, 199);
   --black: rgb(72, 88, 77);
 }
@@ -223,7 +223,7 @@ button {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: .5;
+  opacity: 1;
 }
 .btn.hover-filled-opacity:hover::before {
   opacity: 0;
