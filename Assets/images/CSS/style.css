@@ -52,6 +52,7 @@ h1 {
 h1,
 h2 {
   margin: 20px;
+  color: var(--black);
 }
 
 main {
@@ -96,7 +97,7 @@ header {
   margin-top: 0;
   width: 100%;
   height: 2.5rem;
-  border-bottom: 10px solid var(--smoke);
+  border-bottom: 10px solid var(--black);
   color: #000000;
 }
 figure {
