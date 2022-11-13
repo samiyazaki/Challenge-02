@@ -107,13 +107,14 @@ figure {
   margin-right: auto;
   width: 50%;
 }
-#About_me {
+.About_me {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid var(--black);
+  border-width: 5px solid var(--black);
   border-radius: 20px;
-  background-color: var(--black);
+  background-color: var();
+  border-style: solid;
 }
 img {
   display: block;
@@ -133,7 +134,8 @@ form {
   padding: 10px;
   border: 5px solid var(--black);
   border-radius: 20px;
-  background-color: var(--purple);
+  background-color: var(--smoke);
+  display: center;
 }
 
 label {
