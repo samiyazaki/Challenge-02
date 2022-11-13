@@ -5,6 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="Assets\images\CSS\style.css">
   <title>The Portfolio of Seiya Miyazaki</title>
+  <meta content="initial-scale=1.0, width=device-width" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 5px;
+  right: 35px;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -14,16 +71,35 @@
     <nav class="text-right">
       <ul>
         <li> <a href="https://github.com/samiyazaki" id="Wow_Double_Rainbow">Github</a></li>
-        <li> <a href="https://www.linkedin.com/in/seiya-miyazaki/"id="Wow_Double_Rainbow">Linkedin</a></li>
-        <li> <a href="#contact"id="Wow_Double_Rainbow">Contact</a></li>
+        <li> <a href="https://www.linkedin.com/in/seiya-miyazaki/"id="Wow_Double_Rainbow">Linkedin</a></li> 
       </ul>
     </nav>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#">Clients</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
   </header>
 
   <main>
     <h1 class="text-center">In the midst of movement and chaos, keep stillness inside of you.</h1>
     <figure><img src="Assets/images/0018.jpg" alt="Dining room rustic wooden barn table with teal chairs"></figure>
-    <div class="btn-time">
+    <div class="btn-time" id="projects">
       <button class="btn portfolio-button hover-filled-opacity">
         <span>Here are a few examples of projects I've completed or overseen</span>
       </button> <br>
@@ -39,7 +115,7 @@
         <span>A website I designed in Wordpress for a client<a href="https://nocontactmd.com"><img src="Assets\images\logo-there-care.png" alt="Logo for a telemedical device company"></a></span>
       </button>
     </div>
-      <h2 class="text-center">Contact Me</h2>
+      <h2 class="text-center" id="contact">Contact Me</h2>
       <form>
         <ul>
           <li>
@@ -52,7 +128,9 @@
           </li>
         </ul>
         <div class="text-center">
-          <button class="btn portfolio-button hover-filled-opacity"><Span>Punt it into the Ether</Span></button>
+          <button class="btn portfolio-button hover-filled-opacity"> <a href="https://willrobotstakemyjob.com"></a>
+            <Span>Punt it into the Ether</Span>
+          </button>
         </div>
       </form>
     </section>
