@@ -5,14 +5,14 @@
   padding: 0;
 }
 :root {
-  --purple: rgb(136, 186, 193);
+  --teal: rgb(136, 186, 193);
   --smoke: rgb(192, 194, 199);
-  --black: rgb(72, 88, 77);
+  --f_green: rgb(72, 88, 77);
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--black);
+  color: var(--f_green);
   background-color: var(--smoke);
   overflow: auto;
 }
@@ -52,7 +52,7 @@ h1 {
 h1,
 h2 {
   margin: 20px;
-  color: var(--black);
+  color: var(--f_green);
 }
 
 main {
@@ -75,12 +75,12 @@ footer {
   height: 80px;
   width: 100%;
   line-height: 60px;
-  background-color: var(--purple);
+  background-color: var(--teal);
 }
 
 header {
   position: absolute;
-  border-bottom: 10px solid var(--black);
+  border-bottom: 10px solid var(--f_green);
 }
 #page-container {
   position: relative;
@@ -97,7 +97,7 @@ header {
   margin-top: 0;
   width: 100%;
   height: 2.5rem;
-  border-bottom: 10px solid var(--black);
+  border-bottom: 10px solid var(--f_green);
   color: #000000;
 }
 figure {
@@ -111,7 +111,7 @@ figure {
   margin: 0 auto;
   width: 100%;
   padding: 10px;
-  border-width: 10px solid var(--black);
+  border-width: 10px solid var(--f_green);
   border-radius: 20px;
   background-color: var();
   border-style: solid;
@@ -125,7 +125,7 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid var(--black);
+  border-top: 3px solid var(--f_green);
   background-color: var(--smoke);
 }
 
@@ -133,7 +133,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid var(--black);
+  border: 5px solid var(--f_green);
   border-radius: 20px;
   background-color: var(--smoke);
   display: center;
@@ -229,7 +229,7 @@ button {
 .portfolio-button span:hover {
   color: rgb(28, 31, 30);
   transition: 0.2s 0.1s;
-  box-shadow: inset opx opx 8px var(--purple), 0 0 15px var(--purple);
+  box-shadow: inset opx opx 8px var(--teal), 0 0 15px var(--teal);
   transform: scale(1.05);
 }
 
