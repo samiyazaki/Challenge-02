@@ -243,3 +243,6 @@ button {
 .btn.hover-filled-opacity:hover::before {
   opacity: 0;
 }
+.Stop_freaking_working {
+  width: 50%;
+}
