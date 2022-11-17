@@ -7,6 +7,13 @@
 
 - 🔭 I’m currently working on [portfolio-in-retrograde](https://samiyazaki.github.io/Portfolio-in-retrograde/) <img src="Assets\images\Screenshot_20221116_080315.png" alt="image of site deployed" /> </a>
 
+## This is a project that is intended to be a collection of all of my work and projects going forward in my career as a developer. Please check out what I have working and give it a try.
+## As you can see there is a navigation page on the left hand side of the screen that will allow you to skip to the About, Projects and Contact sections of the site.
+## On the right you can see links to my Github and LinkedIn accounts. The buttons glow by rotating through 360 degrees of the color wheel.
+## The about me section includes a picture of me in my boat shirt, in front of a boat painting, with boats in bottles at a maritime museum. I like the ocean in case you couldn't tell.
+## My projects are primarily from before my foray into software development, the first is a website and series of product photoshoots I did for a client, followed by a website I designed for a client and commisioned as well as a site I built myself in WordPress. The next two are from my bootcamp, and finally a small javaScript game that I built with my son.
+## The final section is a contact section which is currently non-functional but the phone call button works as well as a little easter egg with the other button. 
+
 - 🌱 I’m currently learning **javaScript, CSS, HTML and Git commands**
 
 - 👨‍💻 All of my projects are available at [https://github.com/samiyazaki](https://github.com/samiyazaki)
