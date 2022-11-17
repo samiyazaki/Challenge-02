@@ -6,7 +6,7 @@
 }
 :root {
   --teal: rgb(136, 186, 193);
-  --smoke: rgb(192, 194, 199);
+  --smoke: rgb(192, 194, 199); /*wonderful root variables for color. I finally fixed them so the color matches the name */
   --f_green: rgb(72, 88, 77);
 }
 
@@ -17,7 +17,7 @@ body {
   overflow: auto;
 }
 img {
-  width: 100%;
+  width: 100%; /*width 100% means it stays the width of the screen and height auto makes it stay in stay formatted*/
   height: auto;
 }
 h1 {
@@ -40,13 +40,13 @@ h1 {
   animation: animate 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
-}
+} /*my piece du resistance, the box for the links on the right of the page */
 @keyframes animate {
   from {
     filter: hue-rotate(0deg);
   }
   to {
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg); /* the rotating hue gives the look of rainbow glow */
   }
 }
 h1,
@@ -75,7 +75,7 @@ footer {
   height: 80px;
   width: 100%;
   line-height: 60px;
-  background-color: var(--teal);
+  background-color: var(--teal); /* why does formatting the page require so much trial and error? */
 }
 
 header {
@@ -84,7 +84,7 @@ header {
 }
 #page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100vh; /*100 vh means it is the size of the screen*/
 }
 
 #content-wrap {
@@ -92,7 +92,7 @@ header {
 }
 
 #footer {
-  position: relative;
+  position: relative; /*this one took a lot of finagling, and if I make any small adjustment the footer reappears at a fixed location on the screen at approximately 100vh. */
   bottom: 0;
   margin-top: 0;
   width: 100%;
@@ -113,7 +113,7 @@ figure {
   padding: 10px;
   border-width: 10px solid var(--f_green);
   border-radius: 20px;
-  background-color: var();
+  background-color: var(); /* this section creates the box, font and color of the about me text section */
   border-style: solid;
   font-size: 24px;
 }
@@ -132,7 +132,7 @@ section {
 form {
   margin: 0 auto;
   width: 500px;
-  padding: 10px;
+  padding: 10px; /* I really wanted a form box for contact section but it looks blase*/
   border: 5px solid var(--f_green);
   border-radius: 20px;
   background-color: var(--smoke);
@@ -158,13 +158,13 @@ textarea {
 
 button {
   height: 40px;
-  width: 120px;
+  width: 120px; /* I really like how the buttons turned out */
   background-color: var(--smoke);
   color: #fdf8f5;
 }
 
 .text-center {
-  text-align: center;
+  text-align: center; /*I like weird names for selectors but descriptive ones are best */
 }
 
 .text-right {
@@ -186,7 +186,7 @@ button {
 
 .btn-time {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*I really love flex boxes. I don't always understand them but they're nice.*/
   justify-content: center;
   max-width: 1000px;
   margin: 20px auto 35px;
@@ -197,7 +197,7 @@ button {
   position: relative;
   display: inline-block;
   width: 50%;
-  height: auto;
+  height: auto; /*I wanted two buttons wide across the page for a better flex and more compatibility with smaller screens */
   background-color: var(--smoke);
   border: none;
   cursor: none;
@@ -229,7 +229,7 @@ button {
   color: rgb(28, 31, 30);
   transition: 0.2s 0.1s;
   box-shadow: inset opx opx 8px var(--teal), 0 0 15px var(--teal);
-  transform: scale(1.05);
+  transform: scale(1.05); /* this is a neat effect that makes the image larger upon hover. one of my favorite googles. */
 }
 
 .btn.hover-filled-opacity::before {
@@ -244,5 +244,5 @@ button {
   opacity: 0;
 }
 .Stop_freaking_working {
-  width: 50%;
+  width: 50%; /*I named this while frustrated and this fixes a specific buttons issues. */
 }

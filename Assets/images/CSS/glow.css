@@ -2,21 +2,21 @@ body {
     background: linear-gradient(90deg, rgba(177, 64, 200, 1) 0%, rgba(109, 9, 121, 1) 35%, 
                 rgba(45, 1, 62, 1) 100%);
   }
-  
+  /* This whole css file is copy pasta from W3 schools. I only did this for the second page of the portfolio that has no bearing on the actual piece itself. Please don't consider this plagiarism, and if you do I can just delete it. It's purely for kicks. */
 .glow {
     font-size: 70px;
     color: #ffffff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; /* a nice gentle glow, pulsing in and out. */
   }
   
   @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
                    0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
-    }
+    } /* this sets all of the colors that the text will change to, as well as the size of the text which makes it seem like it is glowing. what a neat trick, someone really smart made this. */
     to {
       text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
                    0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
@@ -28,4 +28,4 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
+  } /*I feel like most flex is just auto and a %. I know that's not really true, but I feel like it is.*/

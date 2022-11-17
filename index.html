@@ -43,7 +43,7 @@ body {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #f1f1f1; 
 }
 
 .overlay .closebtn {
@@ -68,16 +68,17 @@ body {
   <div id="page-container">
     <div id="content-wrap">
   <header>
-    <nav class="text-right">
+    <nav class="text-right"> <!--This sets the text to the right -->
       <ul>
         <li> <a href="https://github.com/samiyazaki" id="Wow_Double_Rainbow">Github</a></li>
+        <!-- the link to the github account and the 360 degree glow feature-->
         <li> <a href="https://www.linkedin.com/in/seiya-miyazaki/"id="Wow_Double_Rainbow">LinkedIn</a></li> 
-      </ul>
+      </ul><!-- Linkedin account info -->
     </nav>
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-        <a href="#About_me">About</a>
+        <a href="#About_me">About</a> <!-- the href allows the link to specific headers I set up in the rest of the document. Allowing for the jump feature-->
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
@@ -97,16 +98,16 @@ body {
 
   <main>
     <h1 class="text-center">2022: A developer's odyssey<br>by Seiya Miyazaki</h1>
-    <figure id="About_me"><img src="Assets\images\IMG_1364.jpeg" alt="A picture of Seiya wearing his boat shirt in front of some boats in bottles and a painting of a boat"></figure>
+    <figure id="About_me"><img src="Assets\images\IMG_1364.jpeg" alt="A picture of Seiya wearing his boat shirt in front of some boats in bottles and a painting of a boat"></figure> <!-- Image set to center, and % so that-->
     <div class="About_me">
     <p><h2>About Seiya Miyazaki</h2>Seiya began his career with a bachelor's in History from the University of Florida with the intent to enter Law School. As the time arrived to pick a school to attend, Seiya instead decided to take off and travel. Seiya spent a year backpacking across Australia, where he chased Kangaroos, surfed Bondi beach and snorkeled the Great Barrier Reef. From there, Seiya traveled to the South Pacific, spending 3 months in the remote village of Labukulila in the Solomon Islands building schoolhouses and teaching English Language courses in exchange for spear fishing lessons and a place to stay. Upon returning to the states, Seiya entered the Masters of Science in Education program at the University of Bridgeport to pursue his newfound desire to teach. Upon completion of that program, Seiya took a job in Seoul, South Korea teaching English Language Subjects at a boarding school for international students. Seiya was also in charge of the dormitory itself, overseeing the lives and safety of 35 kids between the ages of 13 and 17. After the birth of his son, Seiya returned to the states again to begin a career as a public school educator. Initially Seiya taught at Park Trails Elementary school in Parkland, Florida but after a couple years he moved again to Greenport, NY, way out on the East End of Long Island. There he joined a small medical startup company, developing it from a team of 7 people overseeing 600 patients, squished into a 350 square foot office to a team of 35 people oversing 3,500 patients from 4 medical offices across Long Island and upstate New York. Seiya is currently an Operations Manager for a branch of SRS Distributions and spends his free time playing Dungeons and Dragons with his kids, stand up paddleboarding the Peconic Bay or playing another game of "why won't you work?" with his Jeep.</p> </div>
-    <div class="btn-time" id="projects">
-      <button class="btn portfolio-button hover-filled-opacity">
+    <div class="btn-time" id="projects"> <!-- The button class for the rest of the document, and the identifier for the nav bar -->
+      <button class="btn portfolio-button hover-filled-opacity"> <!--This is part of the CSS link that allows the buttons to change on hover and expand by 1.05 times-->
         <span>Here are a few examples of projects I've completed or overseen</span>
       </button> <br>
       <button class="btn portfolio-button hover-filled-opacity">
         <span> A website I commissioned for a client, all photos were done by me with a Nikon D750 camera<a href="https://www.oneof1designfashion.com/">
-          <img alt="One of one design fashion website link" src="Assets\images\37b054_ac7f25b0213940b69b8df30cf9b7bfc4_mv2.jpg">
+          <img alt="One of one design fashion website link" src="Assets\images\37b054_ac7f25b0213940b69b8df30cf9b7bfc4_mv2.jpg"> <!-- images are relative path links in the assets folder-->
        </a><span>
       </button>
       <button class="btn portfolio-button hover-filled-opacity">
@@ -116,13 +117,13 @@ body {
         <span>A website I designed in Wordpress for a client<a href="https://nocontactmd.com"><img src="Assets\images\logo-there-care.png" alt="Logo for a telemedical device company"></a></span>
       </button>
       <button class="btn portfolio-button hover-filled-opacity">
-        <span>A basic study guide website I made in pre-bootcamp<a href="https://samiyazaki.github.io/prework-study-guide/"><img src="Assets\images\733609.png" alt="Logo for a telemedical device company"></a></span>
+        <span>A basic study guide website I made in pre-bootcamp<a href="https://samiyazaki.github.io/prework-study-guide/"><img src="Assets\images\733609.png" alt="The logo for Github which is the silhoutte of a cat"></a></span>
       </button>
       <button class="btn portfolio-button hover-filled-opacity">
         <span>A basic game I built with my son following a guide verbatim<a href="https://samiyazaki.github.io/Dumb-game/"><img src="Assets\images\Enakai Gaming.jpg" alt="Logo for a youtube channel I never made for my son"></a></span>
       </button>
     </div>
-      <h2 class="text-center" id="contact">Contact Me</h2>
+      <h2 class="text-center" id="contact">Contact Me</h2> <!-- This is a generic contact box and as you can see it directs nowhere but has input options for name and email-->
       <form>
         <ul>
           <li>
@@ -135,17 +136,17 @@ body {
           </li>
         </ul>
         </form>
-        <div class="text-center" id="Stop_freaking_working">
-          <a href="tel:5554280940"><button class="btn portfolio-button hover-filled-opacity"><span>Call me at (631) 381 - 5947</span></button></a> 
+        <div class="text-center" id="Stop_freaking_working"><!-- This is an experiment with hrefs pointing to phone numbers. It allows someone to dial me by clicking the link-->
+          <a href="tel:6313815947"><button class="btn portfolio-button hover-filled-opacity"><span>Call me at (631) 381 - 5947</span></button></a> 
           <a href="safe_space.html"><button class="btn portfolio-button hover-filled-opacity">
-            <Span>Punt it into the Ether</Span>
+            <Span>Punt it into the Ether</Span><!-- This is an easter egg button that redirects to another html page with a separate CSS sheet. I did this to practice with variability of pages and as a reference to sites of grace in Elden Ring-->
           </button></a>
         </div>
     </section>
   </main>
   </div>
   <footer id="footer">
-    © 2022 Driftwood Cottage LLC
+    © 2022 Driftwood Cottage LLC <!-- This is my improperly formed LLC. It will probably lapse because I did not publish it in verified news sources-->
   </footer>
  </div>   
 </body>
