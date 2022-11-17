@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samiyazaki" alt="samiyazaki" /></a> </p>
 
-- 🔭 I’m currently working on [portfolio-in-retrograde](https://samiyazaki.github.io/Portfolio-in-retrograde/)![alt text](C:\Users\smsmi\Documents\GitHub\Challenge-02\Assets\images\Screenshot_20221116_080315.png)
+- 🔭 I’m currently working on [portfolio-in-retrograde](https://samiyazaki.github.io/Portfolio-in-retrograde/)!
 
 - 🌱 I’m currently learning **javaScript, CSS, HTML and Git commands**
 
