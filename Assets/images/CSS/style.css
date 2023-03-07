@@ -246,3 +246,7 @@ button {
 .Stop_freaking_working {
   width: 50%; /*I named this while frustrated and this fixes a specific buttons issues. */
 }
+
+.submit-btn {
+  padding-top: 10px;
+}
